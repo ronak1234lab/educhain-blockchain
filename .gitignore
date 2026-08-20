@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Hardhat build output
+artifacts/
+cache/
+coverage/
+
+# Hardhat Ignition local deployments
+ignition/deployments/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
